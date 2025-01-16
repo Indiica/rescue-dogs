@@ -5,6 +5,10 @@
 :root {
     --primary-font: "Sour Gummy", sans-serif;
     --secondary-font: "Alegreya", serif;
+    --primary-color:#b3d9ff; /* Pastel Blue */
+    --secondary-color:#c1e1c1; /*  Sage Green */
+    --highlight-color:#98FB98; /* Light Green*/
+    --highlight-color-light: #ffb6c1; /* Soft Pink */
 }
 
 /* Global styles */
@@ -15,5 +19,12 @@ body {
 h1,
 h2,
 h3 {
-    font-family: var(--secondary-font)
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: var(--secondary-color)
 }
