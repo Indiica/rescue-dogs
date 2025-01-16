@@ -1,0 +1,19 @@
+/* Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-font: "Sour Gummy", sans-serif;
+    --secondary-font: "Alegreya", serif;
+}
+
+/* Global styles */
+body {
+    font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font)
+}
