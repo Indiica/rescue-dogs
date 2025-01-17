@@ -30,7 +30,9 @@ h3 {
 /* Navbar */
 
 #navbar {
-    background-color: var(--secondary-color)
+    background-color: var(--secondary-color);
+   
+  
 }
 
 /* Hero section */
@@ -42,11 +44,28 @@ h3 {
 }
 
 #cover-text {
-    font-size: 70px;
+    font-size: 24px;
     position: absolute;
     bottom: 30px;
     width: 80%;
     min-height: 100px;
     padding-top: 350px;
     padding-left: 52px;
+}
+
+/* Buttons */
+
+.custom-button {
+    background-color: var(--highlight-color-light);
+    color: white;
+}
+
+/* Contact section */
+#contact {
+    background-color: var(--secondary-color);
+    text-align:justify;
+}
+
+#contact i {
+    color: white;
 }
