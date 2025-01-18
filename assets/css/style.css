@@ -56,10 +56,18 @@ h3 {
 /* Buttons */
 
 .custom-button {
-    background-color: var(--highlight-color-light);
+    background-color: var(--primary-color);
     color: white;
 }
 
+.custom-button:hover {
+    background-color: var(--highlight-color-light);
+    color: white;
+}
+/* Adopt page */
+#adoptables {
+    width: 100%;
+}
 /* Contact section */
 #contact {
     background-color: var(--secondary-color);
@@ -69,3 +77,18 @@ h3 {
 #contact i {
     color: white;
 }
+
+/* media queries
+
+/* Media query: 768px and up 
+
+
+/* Media query: 768px and up 
+@media  screen and(min-width: 768px) {
+    #adoptables {
+        column-count: 2;
+    }
+}
+
+*/
+
