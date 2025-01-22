@@ -87,11 +87,6 @@ h3 {
     color: white;
 }
 
-/* Adopt page */
-#adoptables {
-    width: 100%;
-}
-
 /* Contact section */
 #contact {
     background-color: var(--secondary-color);
@@ -101,7 +96,8 @@ h3 {
     color: white;
 }
 .social-links a{
-    padding: 10px;
+    padding: 5px;
+    font-size: 24px;
 
 }
 /* media queries */
