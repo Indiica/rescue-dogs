@@ -100,8 +100,10 @@ h3 {
 #contact i {
     color: white;
 }
+.social-links a{
+    padding: 10px;
 
-
+}
 /* media queries */
 
 /* Media query: 320px and up  */
