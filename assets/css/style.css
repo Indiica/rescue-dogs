@@ -24,7 +24,7 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
-    color:var(--primary-color);
+    color: var(--primary-color);
 }
 
 
@@ -32,7 +32,7 @@ h3 {
 
 #navbar {
     background-color: var(--secondary-color);
- 
+
 }
 
 .navbar {
@@ -50,11 +50,11 @@ h3 {
 
 .hero {
     text-align: center;
-  margin: 0;
-  padding-bottom: 329px;
+    margin: 0;
+    padding-bottom: 329px;
     color: black
 }
- 
+
 
 #cover-text {
     font-size: 24px;
@@ -64,6 +64,15 @@ h3 {
     min-height: 100px;
     padding-top: 350px;
     padding-left: 52px;
+}
+
+/* Our organisation */
+
+
+.our-organisation-photo {
+    width: 22rem;
+    margin: 0;
+    padding: 25px;
 }
 
 /* Buttons */
@@ -77,10 +86,12 @@ h3 {
     background-color: var(--highlight-color-light);
     color: white;
 }
+
 /* Adopt page */
 #adoptables {
     width: 100%;
 }
+
 /* Contact section */
 #contact {
     background-color: var(--secondary-color);
@@ -94,32 +105,29 @@ h3 {
 /* media queries */
 
 /* Media query: 320px and up  */
-@media  screen and(min-width: 320px) {
+@media screen and(min-width: 320px) {
     .hero {
-     padding-bottom: 302px;
+        padding-bottom: 302px;
     }
- }
+}
 
 /* Media query: 768px and up  */
-@media  screen and(min-width: 768px) {
-   .hero {
-    padding-bottom: 365px;
-   }
+@media screen and(min-width: 768px) {
+    .hero {
+        padding-bottom: 365px;
+    }
 }
 
 /* Media query: 1024px and up  */
-@media  screen and(min-width: 1024px) {
+@media screen and(min-width: 1024px) {
     .hero {
-     padding-bottom: 383px;
+        padding-bottom: 383px;
     }
- }
+}
 
 /* Media query: 1440px and up  */
-@media  screen and(min-width: 1440px) {
+@media screen and(min-width: 1440px) {
     .hero {
-     padding-bottom: 401px;
+        padding-bottom: 401px;
     }
- }
-
-
-
+}
