@@ -15,6 +15,8 @@ Our organisation section
 The footer
 The Adopt Page
 The Donate Page
+The Thank you Page
+Contact
 
 # Testing
 
