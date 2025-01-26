@@ -21,7 +21,7 @@ By adopting, donating, or even sharing our cause, you are helping to provide bet
 + **Navigation Bar**
 
 The full responsive navigation bar includes links to the Logo, Home page, Our organisation section, Donate page and  Adopt page.
-![Navbar](assets/images/navbar.webp)
+![responsive image](assets/images/navbar.webp)
 
 
 This section is helping out users to easily check the whole site and everything they are interested about related to the organisation.
