@@ -28,7 +28,7 @@ Buttons "Donate" and "Adopt" are the most important buttons of the site because 
 + **Our organisation section**
 
 This section is sharing about the organisation and their goals. For users to get to know them better and have better perception.
-![Navbar](assets/images/Our%20organisation%20section.webp)
+![Navbar](assets/images/our%20section%20readme%20.webp)
 
 + **The footer**
 
@@ -50,7 +50,7 @@ The user will be asked to submit their Name, Email address and the certain amoun
 + **The Thank you Page**
 
 This page is made for users as a confirmation of their  donation.
-![Navbar](assets/images/Thank%20you%20page.png)
+![Navbar](assets/images/Thank%20you%20page.webp)
 
 # Testing
 
