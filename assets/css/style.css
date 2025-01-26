@@ -68,11 +68,14 @@ h3 {
 
 /* Our organisation */
 
+#our-organisation-text {
+    margin-top: 29px;
+}
 
-.our-organisation-photo {
-    width: 22rem;
-    margin: 0;
-    padding: 25px;
+#our-organisation-photo {
+    width: 26rem;
+    margin-left: 6px;
+    padding: 16px;
 }
 
 /* Buttons */
@@ -127,5 +130,12 @@ h3 {
 @media screen and(min-width: 1440px) {
     .hero {
         padding-bottom: 401px;
+    }
+
+    #our-organisation-photo {
+        width: 26rem;
+        margin-left: 160px;
+        margin-right: 10px;
+        padding: 16px;
     }
 }
