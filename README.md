@@ -38,7 +38,7 @@ The footer section includes address, phone number, mail and links to the relevan
 + **The Adopt Page**
 
 The Adopt page includes photos of the available dogs for adopting with their Names and Year of rescuing.
-![Navbar](assets/images/Adopt%20page.webp)
+![Navbar](assets/images/adopt%20page%20readme.webp)
 
 + **The Donate Page**
 
