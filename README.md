@@ -6,7 +6,7 @@ Rescue Dogs is a site for Organisation "Rescue Dogs". This platform serves as a 
 + Donations: Encouraging individuals to contribute to the care, medical treatment, and feeding of rescue dogs.
 By adopting, donating, or even sharing our cause, you are helping to provide better futures for dogs and families alike.
 
-![Navbar](assets/images/%20responsive.webp)
+![Navbar](assets/images/responsive.webp)
 
 ### **User story**
 **Overview**
@@ -32,6 +32,7 @@ The hero image with the text has a goal to show the passion about dogs.
 ![Hero image](assets/images/Hero%20image%20with%20text.webp)
 
 Buttons "Donate" and "Adopt" are the most important buttons of the site because they are showing the mainly goal of the site.
+
 ![Buttons on hero image](assets/images/Buttons%20on%20hero%20image.webp)
 
 + **Our organisation section**
