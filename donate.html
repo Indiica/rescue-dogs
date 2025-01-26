@@ -61,38 +61,60 @@
     </nav>
 
     <!--Header -->
-    <header class=" col-12 text-center">
-        <h1> DONATIONS </h1>
-        <p>Every day, countless animals are in need of love, care, and a safe place to call home. With your donation, we
-            can provide food, medical care, shelter, and the second chances that so many animals deserve.
-            Whether it's rescuing abandoned puppies, healing injured wildlife, or giving senior pets a peaceful place to
-            live, your contribution directly impacts the lives of animals in desperate need of help.
-            We’re asking for your support to continue this important work. No donation is too small—every bit helps save
-            lives.Together, we can achieve so much. </p>
 
-    </header>
+
+
 
     <!-- Main -->
     <main>
 
         <!--Donate section-->
-        <form class="row g-3">
-
-            <div>
-                <div class="col-12 text-center">
+        <section id="donate">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
+                <div class="col-12 col-lg-12 text-center">
+                    <div class="row">
+                    <form action="thank-you.html" method="GET">
+                        <h1> DONATIONS </h1>
+                        <p>Every day, countless animals are in need of love, care, and a safe place to call home. With
+                            your
+                            donation, we
+                            can provide food, medical care, shelter, and the second chances that so many animals
+                            deserve.
+                            Whether it's rescuing abandoned puppies, healing injured wildlife, or giving senior pets a
+                            peaceful place to
+                            live, your contribution directly impacts the lives of animals in desperate need of help.
+                            We’re asking for your support to continue this important work. No donation is too
+                            small—every
+                            bit helps save
+                            lives.Together, we can achieve so much. </p>
+                </div>
+                
+                <div id="amount" class="text-center">
+                    <div class="col-12  mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input class="form-control" id="name" name="name" type="text" required>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input class="form-control" id="email" name="email" type="email" required>
+                    </div>
                     <h2> <label for="amount" class="form-label">Amount</label></h2>
-                    <select id="amount" class="form-select" name="amount" required>
+                    <select class="form-select" name="amount" required>
                         <option value="" selected>Select</option>
-                        <option value="">$10</option>
-                        <option value="">$20</option>
-                        <option value="">$30</option>
-                        <option value="">$50</option>
-                        <option value="">$100</option>
+                        <option value="$10">$10</option>
+                        <option value="$20">$20</option>
+                        <option value="$30">$30</option>
+                        <option value="$50">$50</option>
+                        <option value="$100">$100</option>
                     </select>
                 </div>
-                <a type="submit" class="btn custom-button mt-3 text-center" href="thank-you.html">Donate</a>
-        </form>
 
+                <button type="submit" class=" btn donate-button mt-3 mb-2 " href="thank-you.html">Donate</button>
+                </form>
+            </div>
+            </div>
+        </section>
     </main>
 
     <!--Footer / Contact section -->

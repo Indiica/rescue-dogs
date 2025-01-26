@@ -18,6 +18,7 @@
 /* Global styles */
 body {
     font-family: var(--primary-font);
+
 }
 
 h1,
@@ -85,6 +86,11 @@ h3 {
     margin-left: 6px;
     padding: 16px;
 }
+/* Donate page */
+#amount {
+    padding: 36px;
+    margin: 0px;
+}
 
 /* Buttons */
 
@@ -97,6 +103,20 @@ h3 {
     background-color: var(--highlight-color-light);
     color: white;
 }
+
+.donate-button {
+    background-color: var(--primary-color);
+    color: white; 
+    margin: 28px;
+    padding: 11px 45px;
+
+}
+
+.donate-button:hover {
+    background-color: var(--highlight-color-light);
+    color: white;
+}
+
 
 /* Contact section */
 #contact {
