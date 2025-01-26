@@ -6,7 +6,7 @@ Rescue Dogs is a site for Organisation "Rescue Dogs". This platform serves as a 
 + Donations: Encouraging individuals to contribute to the care, medical treatment, and feeding of rescue dogs.
 By adopting, donating, or even sharing our cause, you are helping to provide better futures for dogs and families alike.
 
-![Site on all devices](assets/images/am%20i%20responsive.webp)
+![Navbar](assets/images/am%20i%20responsive.webp)
 
 ### **User story**
 **Overview**
