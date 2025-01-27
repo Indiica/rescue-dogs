@@ -96,12 +96,24 @@ No errors were found when passing through the official [Jigsaw validator](https:
 
 | Action      | Expected behaviour       | Pass/Fail       |
 |----------------|----------------|----------------|
-| Row 1, Col 1   | Row 1, Col 2   | Row 1, Col 3   |
-| Row 2, Col 1   | Row 2, Col 2   | Row 2, Col 3   |
-| Row 3, Col 1   | Row 3, Col 2   | Row 3, Col 3   |
-| Row 1, Col 1   | Row 1, Col 2   | Row 1, Col 3   |
-| Row 2, Col 1   | Row 2, Col 2   | Row 2, Col 3   |
-| Row 3, Col 1   | Row 3, Col 2   | Row 3, Col 3   |
+|Click on link to website  | Open Home page  | Pass  |
+| Click on the Logo  | Refresh Home page  |Pass   |
+| Click on Home   | Refresh Home Page   | Pass   |
+| Click on Our organisation  | Show Our organisation section  | Pass  |
+| Click on Donate  | Open Donate page   | Pass   |
+| Click on Adopt  | Open Adopt page   | Pass  |
+| Click on Contact  | Show Contact setion  | Pass   |
+| Click on Donate button   | Open Donate page   | Pass  |
+| Click on Adopt button   | Open Adopt page   | Pass   |
+| Click on Donate button in Donate page   | Show to fill up with Name, Email and certain amount of money for donation | Pass   |
+| Click on Donate button in Donate page with required informations about yourself| Show Thank you page  | Pass   |
+| Click on Return to Home page   | Open Home page   | Pass  |
+| Click on Contact us for more infromations  | Show Contact setion   | Pass |
+| Click on Instagram icon   |Open in new tab Instagram site   | Pass  |
+| Click on Facebook icon   | Open in new tab Facebook site   | Pass  |
+| Click on Tiktok icon    | Open in new tab Tiktok site  | Pass  |
+| Click on Twitter icon   | Open in new tab Twitter site  | Pass   |
+
 
 
 # Deployment
