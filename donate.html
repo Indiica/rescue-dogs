@@ -73,8 +73,8 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10">
                     <div class="col-12 col-lg-12 text-center">
-                        <div class="row">
-                            <form action="thank-you.html" method="GET">
+                        <form action="thank-you.html" method="GET">
+                            <div class="row">
                                 <h1> DONATIONS </h1>
                                 <p>Every day, countless animals are in need of love, care, and a safe place to call
                                     home. With
@@ -92,20 +92,20 @@
                                     bit helps save
                                     lives.Together, we can achieve so much.
                                 </p>
-                            </form>
-                        </div>
 
-                        <div id="amount" class="text-center">
-                            <div class="col-12  mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input class="form-control" id="name" name="name" type="text" required>
                             </div>
-                            <div class="col-12 mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input class="form-control" id="email" name="email" type="email" required>
-                            </div>
-                             <label for="amount" class="form-label"> <h2>Amount</h2> </label>
-                            <select class="form-select" name="amount" required>
+
+                            <div class="text-center">
+                                <div class="col-12  mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input class="form-control" id="name" name="name" type="text" required>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input class="form-control" id="email" name="email" type="email" required>
+                                </div>
+                             <label for="amount" class="form-label"> Donation Amount</label>
+                            <select id="amount" class="form-select" name="amount" required>
                                 <option value="" selected>Select</option>
                                 <option value="$10">$10</option>
                                 <option value="$20">$20</option>
@@ -115,7 +115,8 @@
                             </select>
                         </div>
 
-                        <button type="submit" class=" btn donate-button mt-3 mb-2" href="thank-you.html">Donate</button>
+                            <button type="submit" class=" btn donate-button mt-3 mb-2">Donate</button>
+                        </form>
                     </div>
                 </div>
             </div>
