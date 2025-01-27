@@ -11,6 +11,13 @@ By adopting, donating, or even sharing our cause, you are helping to provide bet
 ### **User story**
 **Overview**
 
+As a potential dog adopter or donor, I want to be able to:
+1. Easily view profiles of dogs available for adoption
+2. Donate to the rescue organization in a simple and secure way, knowing that my contributions will go toward the care, medical treatment, and shelter of the dogs in need.
+3.  Access information about the organization's goals and impact, so I can feel confident in my support for their work.
+
+
+
 
 
 
@@ -28,10 +35,10 @@ This section is helping out users to easily check the whole site and everything 
 
 + **Hero image and Buttons**
 
-The hero image with the text has a goal to show the passion about dogs. 
+The hero image with the text has a goal to show how passionate but yet serious is this organisation for dogs that need help. 
 ![Hero image](assets/images/Hero%20image%20with%20text.webp)
 
-Buttons "Donate" and "Adopt" are the most important buttons of the site because they are showing the mainly goal of the site.
+Buttons "Donate" and "Adopt" are easily leading to the Donate page or Adopt page, which helps user to reach their goal fast.
 
 ![Buttons on hero image](assets/images/Buttons%20on%20hero%20image.webp)
 
@@ -42,12 +49,12 @@ This section is sharing about the organisation and their goals. For users to get
 
 + **The footer**
 
-The footer section includes address, phone number, mail and links to the relevant social media sites for Rescue Dogs. The links will open to a new tab to allow easy navigation for the user.
+The footer section includes address, a phone number, an email and links to the relevant social media sites for Rescue Dogs. The links will open to a new tab to allow easy navigation for the user.
 ![The footer](assets/images/Footer.webp)
 
 + **The Adopt Page**
 
-The Adopt page includes photos of the available dogs for adopting with their Names and Year of rescuing.
+The Adopt page includes photos of the available dogs for adopting with their Names and Year of rescuing.There is also a button *"Contact us for more informations!"* that is leading users to the Contact section.
 ![The Adopt page](assets/images/adopt%20page%20readme.webp)
 
 + **The Donate Page**
@@ -70,19 +77,32 @@ This page is made for users as a confirmation of their  donation.
 
 No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 
+![Index.html validation](assets/images/index-validate.png)
+![Donate.html validation](assets/images/donate-validate.png)
+![Adopt.html validation](assets/images/adopt-validate.png)
+![Thank-you.html validation](assets/images/thank-you-validate.png)
+
 ### **CSS**
 
 No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
 
+![The footer](assets/images/css-validate.png)
+
 ## Lighthouse
+
+![Lighthouse- check](assets/images/lighthouse.png)
 
 ## Functional Testing
 
-| Action      | Expected behaviour       | Pass/ Fail       |
+| Action      | Expected behaviour       | Pass/Fail       |
 |----------------|----------------|----------------|
 | Row 1, Col 1   | Row 1, Col 2   | Row 1, Col 3   |
 | Row 2, Col 1   | Row 2, Col 2   | Row 2, Col 3   |
 | Row 3, Col 1   | Row 3, Col 2   | Row 3, Col 3   |
+| Row 1, Col 1   | Row 1, Col 2   | Row 1, Col 3   |
+| Row 2, Col 1   | Row 2, Col 2   | Row 2, Col 3   |
+| Row 3, Col 1   | Row 3, Col 2   | Row 3, Col 3   |
+
 
 # Deployment
 
@@ -112,7 +132,4 @@ All photos are taken from [Pexels.com](https://www.pexels.com/)
 
 All icons were used from[Font Awesome](https://fontawesome.com)
 
-
-
-
-[def]: assets/images/am%20i%20responsive.webp
+The Fonts "Sour Gummy" and "Alegreya" were taken from [Google fonts](https://fonts.google.com/)
