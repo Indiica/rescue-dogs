@@ -118,7 +118,7 @@ h3 {
 }
 
 
-/* Contact section */
+/* Footer/Contact section */
 #contact {
     background-color: var(--secondary-color);
 }
@@ -130,49 +130,4 @@ h3 {
     padding: 5px;
     font-size: 24px;
 
-}
-/* media queries */
-
-/* Media query: 320px and up  */
-@media screen and(min-width: 320px) {
-    .hero {
-        padding-bottom: 302px;
-    }
-
-    #our-organisation-photo {
-    justify-content: center
-    }
-}
-
-/* Media query: 768px and up  */
-@media screen and(min-width: 768px) {
-    .hero {
-        padding-bottom: 365px;
-    }
-
-    #our-organisation-photo {
-        justify-content: center;
-        margin-left: 185px;
-        }
-}
-
-/* Media query: 1024px and up  */
-@media screen and(min-width: 1024px) {
-    .hero {
-        padding-bottom: 383px;
-    }
-}
-
-/* Media query: 1440px and up  */
-@media screen and(min-width: 1440px) {
-    .hero {
-        padding-bottom: 401px;
-    }
-
-    #our-organisation-photo {
-        width: 26rem;
-        margin-left: 160px;
-        margin-right: 10px;
-        padding: 16px;
-    }
 }
